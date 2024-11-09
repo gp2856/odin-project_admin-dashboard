@@ -20,6 +20,8 @@ body {
 
 .sidebar {
     background-color: #007bff;
+    font-size: 24px;
+    font-weight: 700;
     color: #fff;
     padding: 20px;
     width: 250px;
@@ -30,6 +32,8 @@ body {
 
 .nav-links {
     display: flex;
+    font-size: 18px;
+    font-weight: 700;
     flex-direction: column;
     gap: 10px;
 }
@@ -65,10 +69,32 @@ body {
 
 .greeting-section {
     display: grid;
-    grid-template-columns: repeat(auto-fit minmax(300px, 1fr));
+    grid-template-columns: auto 2fr auto;
+    grid-template-rows: auto;
     gap: 20px;
+    align-items: center;
+    padding: 20px;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+    grid-column: 1 / 2;
+}
+
+.avatar {
     grid-column: 1;
-    grid-row: 2;
+}
+
+.greeting-text {
+    grid-column: 2;
+    font-size: 18px;
+    font-weight: 500;
+    white-space: normal;
+}
+
+.actions {
+    grid-column: 3;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
 }
 
 .projects-section {
@@ -124,4 +150,39 @@ body {
 
 .announcements-card:not(:last-child), .trending-card:not(:last-child) {
     border-bottom: 1px solid #ccc;
+}
+
+.project-card, .announcments-card, .trending-card {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.header, .sidebar, .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+.sidebar .nav-item {
+    font-size: 16px;
+    font-weight: 400;
+}
+.projects-section h2, .announcements-section h2, .trending-section h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.project-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button {
+    font-size: 14px;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
