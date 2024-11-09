@@ -60,11 +60,18 @@ body {
     border-radius: 8px;
     grid-column: 1;
     grid-row: 3;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .project-card {
     background-color: #fff;
     border: 1px solid #ccc;
+    border-radius: 8px;
+    flex: 0 1 calc(50% - 20px);
+    margin-bottom: 10px;
 }
 
 .announcements-section {
