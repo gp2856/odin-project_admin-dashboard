@@ -219,3 +219,20 @@ button {
     border: 1px solid #ccc;
     height: 25px;
 }
+
+.logo svg {
+    height: 32px;
+    width: 32px;
+    fill: white;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+.nav-item svg {
+    height: 24px;
+    width: 24px;
+    fill: white;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
