@@ -7,6 +7,7 @@
 body {
     background-color: #f4f4f4;
     color: #333;
+    font-family: 'Roboto', sans-serif;
 }
 
 .dashboard {
@@ -216,7 +217,7 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
-.projects-section h2, .announcements-section h2, .trending-section h2 {
+.nav-item h2, .projects-section h2, .announcements-section h2, .trending-section h2 {
     font-size: 20px;
     font-weight: 700;
 }
