@@ -175,6 +175,25 @@ body {
     padding: 10px 0;
 }
 
+.trending-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.trending-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.trending-card img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 .announcements-card:not(:last-child), .trending-card:not(:last-child) {
     border-bottom: 1px solid #ccc;
 }
