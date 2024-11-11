@@ -238,7 +238,9 @@ button {
 
 .user-info {
     display: flex;
-    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
 .search-bar input[type="text"] {
@@ -297,4 +299,12 @@ button {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.avatar img, .user-profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    object-fit: cover;
 }
