@@ -161,6 +161,14 @@ body {
     grid-column: 2;
 }
 
+.annoucements-text p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
 .announcements-section, .trending-section {
     display: flex;
     flex: 1 1 auto;
