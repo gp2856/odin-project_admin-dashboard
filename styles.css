@@ -214,10 +214,7 @@ body {
     font-size: 24px;
     font-weight: 700;
 }
-.sidebar .nav-item {
-    font-size: 16px;
-    font-weight: 400;
-}
+
 .nav-item h2, .projects-section h2, .announcements-section h2, .trending-section h2 {
     font-size: 20px;
     font-weight: 700;
